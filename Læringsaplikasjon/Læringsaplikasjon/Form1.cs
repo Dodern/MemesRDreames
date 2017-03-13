@@ -22,7 +22,7 @@ namespace Læringsaplikasjon
         /*public void Sjekk_Svar()
         {
             if ()
-
+            Hei 
         }*/
     }
 }
