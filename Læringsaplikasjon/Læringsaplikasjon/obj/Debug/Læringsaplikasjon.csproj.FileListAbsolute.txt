@@ -16,3 +16,11 @@ C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikas
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.csproj.ResolveComReference.cache
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.exe
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.pdb
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\bin\Debug\Læringsaplikasjon.exe
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\bin\Debug\Læringsaplikasjon.pdb
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\bin\Debug\Interop.WMPLib.dll
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.csprojResolveAssemblyReference.cache
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.Form1.resources
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.Properties.Resources.resources
+C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.csproj.GenerateResource.Cache

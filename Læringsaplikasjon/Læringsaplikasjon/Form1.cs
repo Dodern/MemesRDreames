@@ -19,6 +19,58 @@ namespace Læringsaplikasjon
             this.WindowState = FormWindowState.Maximized;
         }
 
+        private void memeSjekk_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+                e.Effect = DragDropEffects.Move;
+        }
+
+        private void memeSjekk_DragDrop(object sender, DragEventArgs e)
+        {
+            e.Data.GetData(DataFormats.FileDrop, false);
+            var bmp = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            memeSjekk.BackgroundImage = bmp;
+        }
+
+
+        private void bilde1_MouseDown(object sender, MouseEventArgs e)
+        {
+            var img = bilde1.Image;
+            if (img == null) return;
+            if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
+            { }
+        }
+
+        private void bilde2_MouseDown(object sender, MouseEventArgs e)
+        {
+            var img = bilde2.Image;
+            if (img == null) return;
+            if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
+            {}
+        }
+
+        private void bilde3_MouseDown(object sender, MouseEventArgs e)
+        {
+            var img = bilde3.Image;
+            if (img == null) return;
+            if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
+            {
+                bilde3.Image = null;
+            }
+        }
+
+        private void bilde4_MouseDown(object sender, MouseEventArgs e)
+        {
+            var img = bilde4.Image;
+            if (img == null) return;
+            if (DoDragDrop(img, DragDropEffects.Move) == DragDropEffects.Move)
+            {
+                bilde4.Image = null;
+            }
+        }
+
+
+
         /*public void Sjekk_Svar()
         {
             if ()
