@@ -183,9 +183,9 @@
             // 
             this.ferdigBilde.BackColor = System.Drawing.SystemColors.Control;
             this.ferdigBilde.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ferdigBilde.Location = new System.Drawing.Point(261, 103);
+            this.ferdigBilde.Location = new System.Drawing.Point(643, 229);
             this.ferdigBilde.Name = "ferdigBilde";
-            this.ferdigBilde.Size = new System.Drawing.Size(656, 416);
+            this.ferdigBilde.Size = new System.Drawing.Size(361, 271);
             this.ferdigBilde.TabIndex = 18;
             this.ferdigBilde.TabStop = false;
             // 
@@ -200,7 +200,7 @@
             this.lydSpiller.Location = new System.Drawing.Point(886, 12);
             this.lydSpiller.Name = "lydSpiller";
             this.lydSpiller.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("lydSpiller.OcxState")));
-            this.lydSpiller.Size = new System.Drawing.Size(75, 23);
+            this.lydSpiller.Size = new System.Drawing.Size(75, 34);
             this.lydSpiller.TabIndex = 19;
             // 
             // Form1
