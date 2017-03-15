@@ -109,6 +109,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\braDatBoi.png" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +117,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\okDatBoi.jpg" />
+=======
+    <None Include="Resources\Trump mlg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crying-Obama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meksikanere.jpg" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

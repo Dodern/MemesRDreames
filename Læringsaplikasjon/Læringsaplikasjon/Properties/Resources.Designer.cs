@@ -63,9 +63,15 @@ namespace Læringsaplikasjon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap braDatBoi {
             get {
                 object obj = ResourceManager.GetObject("braDatBoi", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap Bock {
+            get {
+                object obj = ResourceManager.GetObject("Bock", resourceCulture);
+>>>>>>> origin/master
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +79,15 @@ namespace Læringsaplikasjon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap dårligDatBoi {
             get {
                 object obj = ResourceManager.GetObject("dårligDatBoi", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap Crying_Obama {
+            get {
+                object obj = ResourceManager.GetObject("Crying-Obama", resourceCulture);
+>>>>>>> origin/master
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +95,25 @@ namespace Læringsaplikasjon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap okDatBoi {
             get {
                 object obj = ResourceManager.GetObject("okDatBoi", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap Meksikanere {
+            get {
+                object obj = ResourceManager.GetObject("Meksikanere", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Trump_mlg {
+            get {
+                object obj = ResourceManager.GetObject("Trump mlg", resourceCulture);
+>>>>>>> origin/master
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -30,95 +30,32 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.meme1 = new System.Windows.Forms.PictureBox();
-            this.meme3 = new System.Windows.Forms.PictureBox();
-            this.meme2 = new System.Windows.Forms.PictureBox();
-            this.bilde1 = new System.Windows.Forms.PictureBox();
-            this.bilde3 = new System.Windows.Forms.PictureBox();
-            this.bilde4 = new System.Windows.Forms.PictureBox();
-            this.bilde2 = new System.Windows.Forms.PictureBox();
             this.btnSjekk = new System.Windows.Forms.Button();
             this.btnNeste = new System.Windows.Forms.Button();
             this.lbPoeng = new System.Windows.Forms.Label();
             this.lbRegler = new System.Windows.Forms.Label();
             this.lbTitle = new System.Windows.Forms.Label();
             this.memeSjekk = new System.Windows.Forms.Panel();
-            this.ferdigBilde = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lydSpiller = new AxWMPLib.AxWindowsMediaPlayer();
-            ((System.ComponentModel.ISupportInitialize)(this.meme1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.meme3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.meme2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bilde1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bilde3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bilde4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bilde2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ferdigBilde)).BeginInit();
+            this.ferdigBilde = new System.Windows.Forms.PictureBox();
+            this.bilde2 = new System.Windows.Forms.PictureBox();
+            this.bilde4 = new System.Windows.Forms.PictureBox();
+            this.bilde3 = new System.Windows.Forms.PictureBox();
+            this.bilde1 = new System.Windows.Forms.PictureBox();
+            this.meme2 = new System.Windows.Forms.PictureBox();
+            this.meme3 = new System.Windows.Forms.PictureBox();
+            this.meme1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.lydSpiller)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ferdigBilde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // meme1
-            // 
-            this.meme1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.meme1.Location = new System.Drawing.Point(30, 60);
-            this.meme1.Name = "meme1";
-            this.meme1.Size = new System.Drawing.Size(350, 182);
-            this.meme1.TabIndex = 0;
-            this.meme1.TabStop = false;
-            // 
-            // meme3
-            // 
-            this.meme3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.meme3.Location = new System.Drawing.Point(30, 465);
-            this.meme3.Name = "meme3";
-            this.meme3.Size = new System.Drawing.Size(350, 182);
-            this.meme3.TabIndex = 1;
-            this.meme3.TabStop = false;
-            // 
-            // meme2
-            // 
-            this.meme2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.meme2.Location = new System.Drawing.Point(30, 263);
-            this.meme2.Name = "meme2";
-            this.meme2.Size = new System.Drawing.Size(350, 182);
-            this.meme2.TabIndex = 2;
-            this.meme2.TabStop = false;
-            // 
-            // bilde1
-            // 
-            this.bilde1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bilde1.Location = new System.Drawing.Point(502, 178);
-            this.bilde1.Name = "bilde1";
-            this.bilde1.Size = new System.Drawing.Size(293, 182);
-            this.bilde1.TabIndex = 7;
-            this.bilde1.TabStop = false;
-            // 
-            // bilde3
-            // 
-            this.bilde3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bilde3.Location = new System.Drawing.Point(502, 412);
-            this.bilde3.Name = "bilde3";
-            this.bilde3.Size = new System.Drawing.Size(293, 182);
-            this.bilde3.TabIndex = 8;
-            this.bilde3.TabStop = false;
-            // 
-            // bilde4
-            // 
-            this.bilde4.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bilde4.Location = new System.Drawing.Point(849, 412);
-            this.bilde4.Name = "bilde4";
-            this.bilde4.Size = new System.Drawing.Size(293, 182);
-            this.bilde4.TabIndex = 9;
-            this.bilde4.TabStop = false;
-            // 
-            // bilde2
-            // 
-            this.bilde2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bilde2.Location = new System.Drawing.Point(849, 178);
-            this.bilde2.Name = "bilde2";
-            this.bilde2.Size = new System.Drawing.Size(293, 182);
-            this.bilde2.TabIndex = 10;
-            this.bilde2.TabStop = false;
             // 
             // btnSjekk
             // 
@@ -174,21 +111,16 @@
             // 
             // memeSjekk
             // 
+            this.memeSjekk.AllowDrop = true;
             this.memeSjekk.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.memeSjekk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.memeSjekk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.memeSjekk.Location = new System.Drawing.Point(30, 668);
             this.memeSjekk.Name = "memeSjekk";
             this.memeSjekk.Size = new System.Drawing.Size(350, 179);
             this.memeSjekk.TabIndex = 17;
-            // 
-            // ferdigBilde
-            // 
-            this.ferdigBilde.BackColor = System.Drawing.SystemColors.Control;
-            this.ferdigBilde.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ferdigBilde.Location = new System.Drawing.Point(643, 229);
-            this.ferdigBilde.Name = "ferdigBilde";
-            this.ferdigBilde.Size = new System.Drawing.Size(361, 271);
-            this.ferdigBilde.TabIndex = 18;
-            this.ferdigBilde.TabStop = false;
+            this.memeSjekk.DragDrop += new System.Windows.Forms.DragEventHandler(this.memeSjekk_DragDrop);
+            this.memeSjekk.DragEnter += new System.Windows.Forms.DragEventHandler(this.memeSjekk_DragEnter);
             // 
             // contextMenuStrip1
             // 
@@ -205,13 +137,98 @@
             this.lydSpiller.Size = new System.Drawing.Size(75, 34);
             this.lydSpiller.TabIndex = 19;
             // 
+            // ferdigBilde
+            // 
+            this.ferdigBilde.BackColor = System.Drawing.SystemColors.Control;
+            this.ferdigBilde.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ferdigBilde.Location = new System.Drawing.Point(643, 229);
+            this.ferdigBilde.Name = "ferdigBilde";
+            this.ferdigBilde.Size = new System.Drawing.Size(361, 271);
+            this.ferdigBilde.TabIndex = 18;
+            this.ferdigBilde.TabStop = false;
+            // 
+            // bilde2
+            // 
+            this.bilde2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bilde2.Image = global::Læringsaplikasjon.Properties.Resources.Crying_Obama;
+            this.bilde2.Location = new System.Drawing.Point(849, 178);
+            this.bilde2.Name = "bilde2";
+            this.bilde2.Size = new System.Drawing.Size(293, 182);
+            this.bilde2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bilde2.TabIndex = 10;
+            this.bilde2.TabStop = false;
+            this.bilde2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bilde2_MouseDown);
+            // 
+            // bilde4
+            // 
+            this.bilde4.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bilde4.Image = global::Læringsaplikasjon.Properties.Resources.Meksikanere;
+            this.bilde4.Location = new System.Drawing.Point(849, 412);
+            this.bilde4.Name = "bilde4";
+            this.bilde4.Size = new System.Drawing.Size(293, 182);
+            this.bilde4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bilde4.TabIndex = 9;
+            this.bilde4.TabStop = false;
+            this.bilde4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bilde4_MouseDown);
+            // 
+            // bilde3
+            // 
+            this.bilde3.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bilde3.Image = global::Læringsaplikasjon.Properties.Resources.Bock;
+            this.bilde3.Location = new System.Drawing.Point(502, 412);
+            this.bilde3.Name = "bilde3";
+            this.bilde3.Size = new System.Drawing.Size(293, 182);
+            this.bilde3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bilde3.TabIndex = 8;
+            this.bilde3.TabStop = false;
+            this.bilde3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bilde3_MouseDown);
+            // 
+            // bilde1
+            // 
+            this.bilde1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bilde1.Image = global::Læringsaplikasjon.Properties.Resources.Trump_mlg;
+            this.bilde1.Location = new System.Drawing.Point(502, 178);
+            this.bilde1.Name = "bilde1";
+            this.bilde1.Size = new System.Drawing.Size(293, 182);
+            this.bilde1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bilde1.TabIndex = 7;
+            this.bilde1.TabStop = false;
+            this.bilde1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bilde1_MouseDown);
+            // 
+            // meme2
+            // 
+            this.meme2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.meme2.Location = new System.Drawing.Point(30, 263);
+            this.meme2.Name = "meme2";
+            this.meme2.Size = new System.Drawing.Size(350, 182);
+            this.meme2.TabIndex = 2;
+            this.meme2.TabStop = false;
+            // 
+            // meme3
+            // 
+            this.meme3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.meme3.Location = new System.Drawing.Point(30, 465);
+            this.meme3.Name = "meme3";
+            this.meme3.Size = new System.Drawing.Size(350, 182);
+            this.meme3.TabIndex = 1;
+            this.meme3.TabStop = false;
+            // 
+            // meme1
+            // 
+            this.meme1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.meme1.Location = new System.Drawing.Point(30, 60);
+            this.meme1.Name = "meme1";
+            this.meme1.Size = new System.Drawing.Size(350, 182);
+            this.meme1.TabIndex = 0;
+            this.meme1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1518, 865);
-            this.Controls.Add(this.lydSpiller);
             this.Controls.Add(this.ferdigBilde);
+            this.Controls.Add(this.lydSpiller);
             this.Controls.Add(this.memeSjekk);
             this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.lbRegler);
@@ -229,6 +246,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Meme Quiz";
+<<<<<<< HEAD
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.meme1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meme3)).EndInit();
@@ -238,7 +256,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.bilde4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bilde2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ferdigBilde)).EndInit();
+=======
+>>>>>>> origin/master
             ((System.ComponentModel.ISupportInitialize)(this.lydSpiller)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ferdigBilde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bilde1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meme1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
