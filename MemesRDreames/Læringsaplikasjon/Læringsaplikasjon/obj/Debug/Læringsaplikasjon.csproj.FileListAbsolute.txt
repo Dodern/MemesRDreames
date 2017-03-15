@@ -16,9 +16,3 @@ C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikas
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.csproj.ResolveComReference.cache
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.exe
 C:\Users\jacob\Documents\GitHub\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.pdb
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\bin\Debug\Læringsaplikasjon.exe.config
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Interop.WMPLib.dll
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.csproj.ResolveComReference.cache
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.exe
-C:\Users\jacob\Documents\GitHub\MemesRDreames\MemesRDreames\Læringsaplikasjon\Læringsaplikasjon\obj\Debug\Læringsaplikasjon.pdb
